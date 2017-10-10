@@ -29,8 +29,8 @@ echo -e "${bldblu}Setting up build environment ${txtrst}"
 
 # Setup ccache
 export USE_CCACHE=1
-export CCACHE_DIR="/home/ezio/Android/ccache"
-/usr/bin/ccache -M 50G
+export CCACHE_DIR="/home/gtsiamp/AndroidSSD/.ccache"
+/usr/bin/ccache -M 60G
 
 # Set the device
 echo -e "Setting the device... ${txtrst}"
